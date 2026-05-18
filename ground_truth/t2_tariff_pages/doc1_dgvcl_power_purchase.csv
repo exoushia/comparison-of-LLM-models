@@ -1,0 +1,68 @@
+section,sr_no,name_of_station,available_mu,dispatch_mu,fixed_cost_rs_crore,variable_cost_rs_per_kwh,variable_cost_rs_crore,total_cost_rs_crore
+IPP/Others,1,Adani Power Ltd Bid 1,8935,736,662,4.37,322,984
+IPP/Others,2,Adani Power Ltd Bid 2,9188,4403,741,4.11,1810,2551
+IPP/Others,3,Essar Power Gujarat Ltd,8354,688,299,4.71,324,623
+IPP/Others,4,ACB India Ltd,1489,1489,129,0.66,98,227
+IPP/Others,5,Coastal Gujarat Power Co Ltd,13440,13440,985,4.02,5403,6388
+IPP/Others,6,DB Power,2310,2310,597,1.67,386,983
+IPP/Others,7,MTOA,,,,1.79,,
+IPP/Others,8,Pump Storage,101,101,,5.02,51,51
+IPP/Others,9,Battery Storage,962,962,,3.82,368,368
+IPP/Others,10,Power Exchange,,7046,,6.02,4242,4242
+IPP/Others,11,Short term power purchase,,609,,6.63,404,404
+IPP/Others,,Sub Total,49925,35661,4181,,15000,19181
+Central Sector,1,NPC-Tarapur 1 & 2,1084,1084,,3.42,371,371
+Central Sector,2,NPC-Tarapur 3 & 4,1857,1857,,3.42,635,635
+Central Sector,3,NPC-Kakrapar,4116,4116,,4.08,1679,1679
+Central Sector,4,NTPC-Vindhyachal - I,1698,1698,170,1.68,285,455
+Central Sector,5,NTPC-Vindhyachal - II,1852,1852,156,1.61,298,454
+Central Sector,6,NTPC-Vindhyachal - III,2188,2188,250,1.60,350,600
+Central Sector,7,NTPC-Korba,2591,2591,156,1.60,415,571
+Central Sector,8,NTPC-Korba -II,1036,1036,122,1.57,163,285
+Central Sector,9,NTPC-Kawas,17,17,124,11.45,19,143
+Central Sector,10,NTPC-Jhanor,24,24,207,11.61,28,235
+Central Sector,11,NTPC-Sipat-I,3929,3929,601,1.55,609,1210
+Central Sector,12,NTPC-Sipat - II,2138,2138,264,1.61,344,608
+Central Sector,13,NTPC-Kahlagaon,397,397,,2.87,114,114
+Central Sector,14,NTPC-Kahlagaon I,1082,1082,112,3.16,342,454
+Central Sector,15,NTPC-Vindhyachal - IV,1847,1847,407,1.53,283,690
+Central Sector,16,NTPC-Mauda,1775,1775,309,3.50,621,930
+Central Sector,17,NTPC-Vindhyachal - V,722,722,176,1.63,118,294
+Central Sector,18,NTPC-Mauda II,2009,2009,379,3.56,715,1094
+Central Sector,19,NTPC-Solapur,124,14,127,4.82,7,134
+Central Sector,20,NTPC-Gadarwara,2156,2156,536,3.75,809,1345
+Central Sector,21,NTPC-LARA,1295,1295,274,3.82,495,769
+Central Sector,22,NTPC-Khargone,1619,1619,495,4.06,657,1152
+Central Sector,23,NTPC-Farakka - 3,180,180,36,3.28,59,95
+Central Sector,24,NTPC-Farakka - 1 & 2,80,80,78,3.43,27,105
+Central Sector,25,NTPC-Farakka - 1 & 2 -DE,718,718,,3.43,246,246
+Central Sector,26,NTPC-Unchahar - 1,97,14,14,4.69,6,20
+Central Sector,27,NTPC-Barah - 1,793,793,184,3.20,254,438
+Central Sector,28,NTPC-Dadri - 1,2523,297,289,4.82,143,432
+Central Sector,29,Sardar Sarovar Narmada Nigam Ltd,353,353,,2.05,72,72
+Central Sector,30,Nabinagar Power Generating Co Ltd,324,324,213,2.65,86,299
+Central Sector,31,NHPC Subansiri,492,492,,6.51,320,320
+Central Sector,32,NHPC Rangit-IV,100,100,,4.97,50,50
+Central Sector,33,NHPC Pakaldul,163,163,,4.38,72,72
+Central Sector,34,NHPC Kiru,170,170,,4.74,81,81
+Central Sector,35,NTPC Talcher III,89,89,19,1.48,13,32
+Central Sector,36,NHPC Ratle,56,56,,4.02,22,22
+Central Sector,,Sub Total,41695,39275,5698,,10808,16506
+Others,1,Captive Power,,,,6.61,,
+Renewable,1,Wind Farms,7947,7947,,3.50,2782,2782
+Renewable,2,Solar,12305,12305,,2.96,3642,3642
+Renewable,3,Wind (New),3198,3198,,3.03,969,969
+Renewable,4,Solar (New),22068,21005,,2.63,5522,5522
+Renewable,5,Hybrid,1633,1633,,3.20,523,523
+Renewable,6,Small/Mini Hydal,69,69,,3.69,25,25
+Renewable,7,Biomass,184,184,,1.98,36,36
+Renewable,8,Bagasse,134,134,,7.61,102,102
+Renewable,9,Waste to Energy,30,30,,3.67,11,11
+Renewable,10,DREBP,514,514,,2.76,142,142
+Renewable,11,HPO,,,,,,
+Renewable,12,Solar (Exchange),,,,,,
+Renewable,13,Wind (Exchange),,,,,,
+Renewable,14,Others (Exchange),,,,,,
+Renewable,15,HPO (Exchange),,,,,,
+Renewable,,Sub Total,48082,47019,,,13754,13754
+,,TOTAL,162094,135371,15187,,44815,60002

@@ -1,0 +1,37 @@
+sl_no,tariff_category,sub_type,slab_condition,fixed_charge_unit,fixed_charge_existing_rs,fixed_charge_proposed_rs,energy_slab,energy_charge_existing_paise_per_kwh,energy_charge_proposed_paise_per_kwh
+1a,LT-1<=40,,–,Min.Per Inst. / Month,100.00,100.00,All Units,962,983
+1b,LT-1>40,,–,Per KW / Month,110.00,110.00,0 to 100 Units,700,749
+1b,LT-1>40,,–,,,,0 to All Units,,
+2,LT-2(a),,With SL upto 50 KW,Per KW / Month,110.00,110.00,0 to 100 Units,475,524
+2,LT-2(a),,For Every Addl. KW above 50 KW,Per KW / Month,210.00,210.00,0 to All Units,700,749
+3,LT-2(b),,With SL upto 50 KW,Per KW / Month,180.00,180.00,All Units,775,824
+3,LT-2(b),,For Every Addl. KW above 50 KW,Per KW / Month,250.00,250.00,,,
+4a,LT-3(a),,With SL upto 50 KW,Per KW / Month,200.00,200.00,All Units,850,899
+4a,LT-3(a),,For Every Addl. KW above 50 KW,Per KW / Month,300.00,300.00,,,
+4b,LT-3(a),Demand Based,With SL upto 50 KW,Per KW / Month,220.00,220.00,All Units,850,899
+4b,LT-3(a),Demand Based,For Every Addl. KW above 50 KW,Per KW / Month,320.00,320.00,,,
+5,LT-3(b),,–,Per KW / Month,200.00,200.00,All Units,1050,1099
+6,LT-4(a),,–,–,,,All Units,476,525
+7,LT-4(b),,–,Per HP / Month,135.00,135.00,All Units,410,459
+8,LT-4(c),,–,Per HP / Month,135.00,135.00,All Units,425,474
+9,LT-5,,With SL < 100HP,Per HP / Month,140.00,140.00,0 to 500 Units,610,659
+9,LT-5,,With SL >= 100HP,Per HP / Month,250.00,250.00,> 500 Units,710,759
+9a,LT-5,Demand Based,With SL < 100HP,Per HP / Month,190.00,190.00,0 to 500 Units,610,659
+9a,LT-5,Demand Based,With SL >= 100HP,Per HP / Month,300.00,300.00,> 500 Units,710,759
+10,LT-6(a),,With SL below 67 HP,Per HP / Month,175.00,175.00,All Units,550,599
+10,LT-6(a),,For Every Addl. HP above 67 HP,Per HP / Month,275.00,275.00,,,
+11,LT-6(b),,–,Per KW / Month,175.00,175.00,All Units,700,749
+12,LT-6(c),,With SL upto 50 KW,Per KW / Month,70.00,70.00,All Units,450,499
+12,LT-6(c),,For Every Addl. KW above 50 KW,Per KW / Month,170.00,170.00,,,
+12a,LT-6(c),under HI,–,Per KVA / Month,200.00,200.00,All Units,450,499
+13,LT-7,,–,Per KW / Month,200.00,200.00,All Units,1150,1199
+14,HT-1,,–,Per KVA / Month,350.00,350.00,All Units,600,649
+15,HT-2a,,–,Per KVA / Month,350.00,365.00,All Units,740,779
+16,HT-2b,,–,Per KVA / Month,375.00,385.00,All Units,925,962
+17,HT-2c(i),,–,Per KVA / Month,300.00,310.00,All Units,750,793
+17a,HT-2c(ii),,–,Per KVA / Month,350.00,360.00,All Units,850,892
+18,HT-3,,–,Per HP / Month,150.00,165.00,All Units,350,363
+19,HT-4,,–,Per KVA / Month,300.00,320.00,All Units,725,763
+20,HT-5,,–,Per HP / Month,400.00,415.00,All Units,1150,1190
+21,HT-6,,–,Per HP / Month,150.00,165.00,All Units,550,591
+22,SEZ/ Deemed Licensee,,–,,,,All Units,,
