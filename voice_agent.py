@@ -73,7 +73,7 @@ from livekit.agents.voice.events import UserStateChangedEvent
 from livekit.plugins import openai, sarvam
 
 # hang up if caller is silent this long while the agent is NOT speaking (both in "listening")
-USER_SILENCE_TIMEOUT_SECONDS = float(os.getenv("USER_SILENCE_TIMEOUT_SECONDS", "5"))
+USER_SILENCE_TIMEOUT_SECONDS = float(os.getenv("USER_SILENCE_TIMEOUT_SECONDS", "15"))
 
 
 # ── Prompts (KRDCL domain + how the agent should sound) ─────────────────
