@@ -267,8 +267,20 @@ flowchart TB
 - Traces export to **`http://127.0.0.1:4318`**; UI at **`http://127.0.0.1:3000`**.
 - **What shows up:** span tree (`chat gpt-4o-mini`, `tts_node`, `user_turn`, etc.), **OpenAI token/cost** per turn.
 - **What doesn’t (document this):** Sarvam TTS/STT spans often show **cost “—”** — OpenLIT toast: *missing provider attribute* (`provider=''`, `model='bulbul:v3'`). **Total trace cost ≈ LLM only**, not full voice pipeline.
-- Example short demo (smart meter + prepaid): **total ~$0.00067** — plausible for gpt-4o-mini; **not** inclusive of Sarvam audio pricing.
 - Traces are **local/private** — not publicly shareable unless you expose the Docker stack or paste screenshots with redaction.
+
+### Demo call cost (one measured session)
+
+I ran one **short console call** — greeting plus a few turns on **smart prepaid meter** and **billing / UPI** (the scenario I’d show in a GTM demo). OpenLIT’s **total trace cost** for that session:
+
+| Metric | Value |
+|--------|--------|
+| **Total cost (OpenLIT)** | **$0.0006748500** (~**$0.000675**, under **0.07¢** USD) |
+| **What’s in that number** | **OpenAI gpt-4o-mini only** (~9 `chat gpt-4o-mini` spans at roughly **$0.0001** each) |
+| **What’s excluded** | Sarvam **Saaras STT** + **Bulbul TTS** (no cost line in OpenLIT for those spans) |
+| **Rough scale** | At this rate, **~1,500 similar short demos per $1** on LLM alone — before Sarvam audio charges |
+
+So the helpline demo is **cheap on the brain** in this setup; a full commercial quote still needs **Sarvam STT/TTS pricing** on top.
 
 ### How to run
 
@@ -321,7 +333,7 @@ Talk in Hindi/English mix; try: prepaid smart meter recharge, bill complaint, UP
 1. **Chart → data** via Doc Intel: **failed** on my densest utility charts — position as *assist + QA*, not autonomous CSV export.
 2. **Mayura “colloquial”** on en→hi: produced **Hinglish**, not colloquial Hindi — mode naming / use-case fit needs clarity in GTM materials.
 3. **STT REST 30s cap** — streaming/SIP path matters for real IVR; note in enterprise architecture conversations.
-4. **OpenLIT / OTEL:** great for **LLM cost** in the voice demo; **Sarvam audio cost** not in dashboard without richer provider attributes / pricing rules.
+4. **OpenLIT / OTEL:** great for **LLM cost** in the voice demo — one measured console call came to **$0.0006748500** total trace cost (LLM only); **Sarvam audio cost** not in dashboard without richer provider attributes / pricing rules.
 5. **Voice agent LLM** is third-party in this demo — Sarvam GTM can pair **Sarvam-M / Sarvam-Translate** as the brain in a v2 without changing the voice layer story.
 
 ### What I demonstrated end-to-end
