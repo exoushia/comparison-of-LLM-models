@@ -38,5 +38,8 @@ htmlcov/
 *.swp
 *~
 
+#openlist set up
+openlit/
+
 # Logs
 *.log
