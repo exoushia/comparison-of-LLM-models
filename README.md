@@ -16,7 +16,7 @@ Map Sarvam’s stack to **five utility-relevant surfaces**:
 | **V2** | Consumer / field audio | **Saaras v3 (STT)** | Codemixed Hindi–English; no hallucination on silence; clear API limits |
 | **V3** | Policy headlines → Hindi | **Mayura v1** + **Sarvam-Translate v1** | Publishable Devanagari; formal tone; fast enough for newsroom workflow |
 | **V4** | Hindi voice helpline (demo) | **Saaras + Bulbul v3** via LiveKit | Natural codemix listening; short Hindi replies; sensible hang-up behaviour |
-| **—** | Cost / latency visibility | **OpenLIT** (optional) | Per-turn traces; **OpenAI LLM cost** visible; Sarvam cost gaps documented |
+| **—** | Cost / latency visibility | **OpenLIT** (optional) | Per-turn traces; LLM $ in UI — **full call ~₹2.2** once Sarvam TTS/STT estimated from usage |
 
 The **active** validations in this repo are the three notebooks + `voice_agent.py`.
 
@@ -271,16 +271,32 @@ flowchart TB
 
 ### Demo call cost (one measured session)
 
-I ran one **short console call** — greeting plus a few turns on **smart prepaid meter** and **billing / UPI** (the scenario I’d show in a GTM demo). OpenLIT’s **total trace cost** for that session:
+One **short console call** — greeting plus ~8 caller turns on **smart prepaid meter**, follow-ups, and **digital payment / UPI** (the GTM demo script). OpenLIT shows **$0.0006748500** on the trace total, but that’s **LLM only**; Sarvam spans don’t price in the UI. Below is the **full call estimate** using **usage pulled from the same trace** + **[Sarvam list pricing](https://docs.sarvam.ai/api-reference-docs/pricing)** (May 2026).
 
-| Metric | Value |
-|--------|--------|
-| **Total cost (OpenLIT)** | **$0.0006748500** (~**$0.000675**, under **0.07¢** USD) |
-| **What’s in that number** | **OpenAI gpt-4o-mini only** (~9 `chat gpt-4o-mini` spans at roughly **$0.0001** each) |
-| **What’s excluded** | Sarvam **Saaras STT** + **Bulbul TTS** (no cost line in OpenLIT for those spans) |
-| **Rough scale** | At this rate, **~1,500 similar short demos per $1** on LLM alone — before Sarvam audio charges |
+**Usage from trace (`krdcl-voice-agent`)**
 
-So the helpline demo is **cheap on the brain** in this setup; a full commercial quote still needs **Sarvam STT/TTS pricing** on top.
+| Component | Measured usage |
+|-----------|----------------|
+| **Bulbul v3 TTS** | **627 characters** synthesized (9 TTS requests; ~41s agent audio out) |
+| **Saaras v3 STT** | **8 user turns**, **327 characters** of codemixed transcripts (e.g. smart meter, digital payment, closing) |
+| **gpt-4o-mini** | **5,581 input + 307 output tokens**; OpenLIT sum **$0.00102** |
+
+**STT audio seconds (estimate)** — Sarvam bills **per second of audio**, not per character. I don’t get billed seconds in OpenLIT, so I estimated from transcript length and ~**11 chars/sec** for codemixed Hindi speech → **~30s** caller audio (sensible range **25–40s** if you include pauses / stream overhead).
+
+**Cost estimate (INR, list price)**
+
+| Line item | Rate (Sarvam docs) | Calculation | Est. cost |
+|-----------|---------------------|-------------|-----------|
+| **TTS** Bulbul v3 | ₹30 / 10,000 chars | 627 × 30 / 10,000 | **₹1.88** |
+| **STT** Saaras v3 (codemix) | ₹30 / hour | ~30s → 30/3600 × 30 | **₹0.25** |
+| **LLM** gpt-4o-mini | OpenLIT actual | $0.00102 × ~₹85/USD | **₹0.09** |
+| **Estimated total** | | | **~₹2.22** (~**$0.026**) |
+
+**Split:** **~85% TTS** · **~11% STT** · **~4% LLM** — for a Hindi voice helpline, **Sarvam audio dominates**; swapping the LLM is economically almost irrelevant at this scale.
+
+**Per-call takeaway for GTM:** a **2–3 minute DISCOM-style demo** is on the order of **₹2–2.50** at published rates (mostly **Bulbul characters**), not sub-paisa LLM cost. OpenLIT’s **$0.00067** trace total is misleading for commercial storytelling unless you add this Sarvam math.
+
+*Caveats: list prices; STT seconds are estimated; real billing may round per request/second; excludes LiveKit/cloud telephony.*
 
 ### How to run
 
@@ -333,7 +349,7 @@ Talk in Hindi/English mix; try: prepaid smart meter recharge, bill complaint, UP
 1. **Chart → data** via Doc Intel: **failed** on my densest utility charts — position as *assist + QA*, not autonomous CSV export.
 2. **Mayura “colloquial”** on en→hi: produced **Hinglish**, not colloquial Hindi — mode naming / use-case fit needs clarity in GTM materials.
 3. **STT REST 30s cap** — streaming/SIP path matters for real IVR; note in enterprise architecture conversations.
-4. **OpenLIT / OTEL:** great for **LLM cost** in the voice demo — one measured console call came to **$0.0006748500** total trace cost (LLM only); **Sarvam audio cost** not in dashboard without richer provider attributes / pricing rules.
+4. **OpenLIT / OTEL:** good for latency and span debugging; **trace $ total is LLM-only**. Same demo is **~₹2.22/call** once you estimate Sarvam (**~₹1.88 TTS** + **~₹0.25 STT** + **~₹0.09 LLM**) from trace usage + list pricing.
 5. **Voice agent LLM** is third-party in this demo — Sarvam GTM can pair **Sarvam-M / Sarvam-Translate** as the brain in a v2 without changing the voice layer story.
 
 ### What I demonstrated end-to-end
