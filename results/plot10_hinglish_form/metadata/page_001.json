@@ -1,0 +1,21 @@
+{
+  "page_num": 1,
+  "image_width": 1690,
+  "image_height": 718,
+  "created_at": "2026-05-20T08:50:31.198002+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_311a4f38-e136-456c-8674-4f5d74c928f9_1_block_000",
+      "coordinates": {
+        "x1": 0.0,
+        "y1": 15.0,
+        "x2": 1681.0,
+        "y2": 704.0
+      },
+      "layout_tag": "table",
+      "confidence": 0.9853087067604065,
+      "reading_order": 1,
+      "text": "<table>\n<thead>\n<tr>\n<th>क्र०सं0<br/>/S.no</th>\n<th>शीर्षक / Title</th>\n<th>विवरण/ Details</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>नाम<br/>Name</td>\n<td>Rahul Garg</td>\n</tr>\n<tr>\n<td>2</td>\n<td>पिता/पति का नाम<br/>Father/Husband Name</td>\n<td>Jagdish Prasad</td>\n</tr>\n<tr>\n<td>3</td>\n<td>पता<br/>Address</td>\n<td>Vill-AeJha, Meerut</td>\n</tr>\n<tr>\n<td>4</td>\n<td>संगठन का नाम<br/>Organization Name</td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+    }
+  ]
+}

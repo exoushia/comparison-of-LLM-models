@@ -1,0 +1,86 @@
+{
+  "page_num": 1,
+  "image_width": 1154,
+  "image_height": 1800,
+  "created_at": "2026-05-20T07:55:36.001378+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_000",
+      "coordinates": {
+        "x1": 30.0,
+        "y1": 65.0,
+        "x2": 87.0,
+        "y2": 1752.0
+      },
+      "layout_tag": "sidebar",
+      "confidence": 0.5798652768135071,
+      "reading_order": 1,
+      "text": "Figure 6. In Haryana, 100% solarisation could lower ACoS by ~6% by 2030 (vs no solarisation)"
+    },
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_001",
+      "coordinates": {
+        "x1": 126.0,
+        "y1": 0.0,
+        "x2": 796.0,
+        "y2": 1700.0
+      },
+      "layout_tag": "image",
+      "confidence": 0.561656653881073,
+      "reading_order": 2,
+      "text": "The image displays a line chart comparing two data series over a sequence of 11 discrete time points or categories. The X-axis represents a sequence of 11 points, but specific category labels are not visible. The Y-axis represents numerical values ranging from 7.00 to 8.50, with gridlines marking increments of 0.50. \n\nThere are two lines: a Dark Grey line and a Light Blue line. Both lines exhibit a general upward trend, starting at the lowest point on the left and ending at the highest point on the right. \n\nThe Dark Grey line begins at 7.22 and rises steadily to end at 8.72. It consistently maintains a higher value than the Blue line throughout the sequence. \n\nThe Light Blue line begins at 7.15 and rises to end at 8.18. It generally stays below the Dark Grey line, though the gap narrows significantly in the middle section. \n\nSpecific data points are explicitly labeled on both lines. The Dark Grey line shows a steady increase, with a notable jump from 7.50 to 8.39 between the 6th and 7th points. The Blue line shows a more gradual increase, with a significant jump from 7.34 to 7.96 between the 7th and 8th points."
+    },
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_002",
+      "coordinates": {
+        "x1": 1048.0,
+        "y1": 25.0,
+        "x2": 1142.0,
+        "y2": 1751.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.5000159740447998,
+      "reading_order": 3,
+      "text": "Source: Authors' analysis based on Central Electricity Authority, Report on Twentieth Electric Power Survey of India (Volume I).\nNew Delhi: Ministry of Power, Government of India, 2022; and Haryana Electricity Regulatory Commission. Tariff Order, 2024."
+    },
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_003",
+      "coordinates": {
+        "x1": 973.0,
+        "y1": 1140.0,
+        "x2": 1007.0,
+        "y2": 1597.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.25912249088287354,
+      "reading_order": 4,
+      "text": "ACOS with 100% solarisation"
+    },
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_004",
+      "coordinates": {
+        "x1": 391.0,
+        "y1": 1698.0,
+        "x2": 598.0,
+        "y2": 1738.0
+      },
+      "layout_tag": "image-caption",
+      "confidence": 0.4170211851596832,
+      "reading_order": 5,
+      "text": "(IR/KMP) ACS"
+    },
+    {
+      "block_id": "20260520_7d3909a7-fb73-4df7-866e-4de624aaf1ad_1_block_005",
+      "coordinates": {
+        "x1": 972.0,
+        "y1": 528.0,
+        "x2": 1008.0,
+        "y2": 1596.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.5148967504501343,
+      "reading_order": 6,
+      "text": "— ACoS with 100% solarisation\n— ACoS without 100% solarisation"
+    }
+  ]
+}

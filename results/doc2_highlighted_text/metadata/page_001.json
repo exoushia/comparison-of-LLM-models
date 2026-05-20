@@ -1,0 +1,138 @@
+{
+  "page_num": 1,
+  "image_width": 2550,
+  "image_height": 3300,
+  "created_at": "2026-05-20T09:09:18.251938+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_000",
+      "coordinates": {
+        "x1": 292.0,
+        "y1": 377.0,
+        "x2": 1495.0,
+        "y2": 443.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.5220708250999451,
+      "reading_order": 1,
+      "text": "The Last Question by Isaac Asimov © 1956"
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_001",
+      "coordinates": {
+        "x1": 287.0,
+        "y1": 524.0,
+        "x2": 2258.0,
+        "y2": 691.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9319431185722351,
+      "reading_order": 2,
+      "text": "The last question was asked for the first time, half in jest, on May 21, 2061, at a time when humanity first stepped into the light. The question came about as a result of a five dollar bet over highballs, and it happened this way:"
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_002",
+      "coordinates": {
+        "x1": 288.0,
+        "y1": 745.0,
+        "x2": 2262.0,
+        "y2": 969.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.945501983165741,
+      "reading_order": 3,
+      "text": "Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human\nbeings could, they knew what lay behind the cold, clicking, flashing face -- miles and miles of face -- of\nthat giant computer. They had at least a vague notion of the general plan of relays and circuits that had\nlong since grown past the point where any single human could possibly have a firm grasp of the whole."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_003",
+      "coordinates": {
+        "x1": 287.0,
+        "y1": 1018.0,
+        "x2": 2259.0,
+        "y2": 1297.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9509263038635254,
+      "reading_order": 4,
+      "text": "Multivac was self-adjusting and self-correcting. It had to be, for nothing human could adjust and correct it\nquickly enough or even adequately enough -- so Adell and Lupov attended the monstrous giant only\nlightly and superficially, yet as well as any men could. They fed it data, adjusted questions to its needs\nand translated the answers that were issued. Certainly they, and all others like them, were fully entitled to\nshare In the glory that was Multivac's."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_004",
+      "coordinates": {
+        "x1": 285.0,
+        "y1": 1351.0,
+        "x2": 2259.0,
+        "y2": 1573.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9436550140380859,
+      "reading_order": 5,
+      "text": "For decades, Multivac had helped design the ships and plot the trajectories that enabled man to reach the\nMoon, Mars, and Venus, but past that, Earth's poor resources could not support the ships. Too much\nenergy was needed for the long trips. Earth exploited its coal and uranium with increasing efficiency, but\nthere was only so much of both."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_005",
+      "coordinates": {
+        "x1": 286.0,
+        "y1": 1625.0,
+        "x2": 2254.0,
+        "y2": 1736.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9100338220596313,
+      "reading_order": 6,
+      "text": "But slowly Multivac learned enough to answer deeper questions more fundamentally, and on May 14,\n2061, what had been theory, became fact."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_006",
+      "coordinates": {
+        "x1": 286.0,
+        "y1": 1790.0,
+        "x2": 2259.0,
+        "y2": 2015.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9455877542495728,
+      "reading_order": 7,
+      "text": "The energy of the sun was stored, converted, and utilized directly on a planet-wide scale. All Earth turned\noff its burning coal, its fissioning uranium, and flipped the switch that connected all of it to a small station,\none mile in diameter, circling the Earth at half the distance of the Moon. All Earth ran by invisible beams\nof sunpower."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_007",
+      "coordinates": {
+        "x1": 286.0,
+        "y1": 2065.0,
+        "x2": 2258.0,
+        "y2": 2345.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9556271433830261,
+      "reading_order": 8,
+      "text": "Seven days had not sufficed to dim the glory of it and Adell and Lupov finally managed to escape from\nthe public function, and to meet in quiet where no one would think of looking for them, in the deserted\nunderground chambers, where portions of the mighty buried body of Multivac showed. Unattended, idling,\nsorting data with contented lazy clickings, Multivac, too, had earned its vacation and the boys appreciated\nthat. They had no intention, originally, of disturbing it."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_008",
+      "coordinates": {
+        "x1": 288.0,
+        "y1": 2398.0,
+        "x2": 2257.0,
+        "y2": 2508.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.919802188873291,
+      "reading_order": 9,
+      "text": "They had brought a bottle with them, and their only concern at the moment was to relax in the company\nof each other and the bottle."
+    },
+    {
+      "block_id": "20260520_b3ca1b47-9364-4b9b-9ba6-3f99ce0db633_1_block_009",
+      "coordinates": {
+        "x1": 287.0,
+        "y1": 2563.0,
+        "x2": 2258.0,
+        "y2": 2838.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9579533934593201,
+      "reading_order": 10,
+      "text": "\"It's amazing when you think of it,\" said Adell. His broad face had lines of weariness in it, and he stirred\nhis drink slowly with a glass rod, watching the cubes of ice slur clumsily about. \"All the energy we can\npossibly ever use for free. Enough energy, if we wanted to draw on it, to melt all Earth into a big drop of\nimpure liquid iron, and still never miss the energy so used. All the energy we could ever use, forever and\nforever and forever.\""
+    }
+  ]
+}

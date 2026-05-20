@@ -1,0 +1,73 @@
+{
+  "page_num": 1,
+  "image_width": 3306,
+  "image_height": 2337,
+  "created_at": "2026-05-20T08:49:53.967209+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_50433bd2-597f-4804-ada9-0155d6e59f81_1_block_000",
+      "coordinates": {
+        "x1": 460.0,
+        "y1": 150.0,
+        "x2": 617.0,
+        "y2": 184.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.3741127848625183,
+      "reading_order": 1,
+      "text": "BESCOM"
+    },
+    {
+      "block_id": "20260520_50433bd2-597f-4804-ada9-0155d6e59f81_1_block_001",
+      "coordinates": {
+        "x1": 1251.0,
+        "y1": 159.0,
+        "x2": 1437.0,
+        "y2": 191.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.3114994168281555,
+      "reading_order": 2,
+      "text": "Format D-20"
+    },
+    {
+      "block_id": "20260520_50433bd2-597f-4804-ada9-0155d6e59f81_1_block_002",
+      "coordinates": {
+        "x1": 1249.0,
+        "y1": 196.0,
+        "x2": 1656.0,
+        "y2": 226.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.5029831528663635,
+      "reading_order": 3,
+      "text": "Existing Tariff and Proposed Tariff"
+    },
+    {
+      "block_id": "20260520_50433bd2-597f-4804-ada9-0155d6e59f81_1_block_003",
+      "coordinates": {
+        "x1": 303.0,
+        "y1": 237.0,
+        "x2": 2993.0,
+        "y2": 2267.0
+      },
+      "layout_tag": "table",
+      "confidence": 0.9659338593482971,
+      "reading_order": 4,
+      "text": "<table>\n<thead>\n<tr>\n<th rowspan=\"3\">Sl<br/>No.</th>\n<th rowspan=\"3\">Tariff<br/>Category</th>\n<th colspan=\"4\">Existing Tariff 2023-24</th>\n<th colspan=\"4\">Proposed Tariff for 2024-25</th>\n</tr>\n<tr>\n<th colspan=\"2\">FIXED CHARGES</th>\n<th colspan=\"2\">ENERGY CHARGES</th>\n<th colspan=\"2\">FIXED CHARGES</th>\n<th colspan=\"2\">ENERGY CHARGES</th>\n</tr>\n<tr>\n<th>Slab</th>\n<th>Rate (in Rs.)</th>\n<th>Slab</th>\n<th>Rate (Paise/kWh)</th>\n<th>Slab</th>\n<th>Rate (in Rs.)</th>\n<th>Slab</th>\n<th>Rate (False/kWh)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1a</td>\n<td>LT-I&lt;=40</td>\n<td>-</td>\n<td>Min.Per Inst. / Month</td>\n<td>100.00</td>\n<td>All Units</td>\n<td>962</td>\n<td>-</td>\n<td>Min.PerInst. / Month</td>\n<td>100.00</td>\n<td>All Units</td>\n<td>983</td>\n</tr>\n<tr>\n<td>1b</td>\n<td>LT-I&gt;40</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>110.00</td>\n<td>0 to 100 Units</td>\n<td>700</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>110.00</td>\n<td>To 100 Units</td>\n<td>749</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>0 to All Units</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>0 to All Units</td>\n<td></td>\n</tr>\n<tr>\n<td>2</td>\n<td>LT-2(a)</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>110.00</td>\n<td>To 100 Units</td>\n<td>475</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>110.00</td>\n<td>to 100 Units</td>\n<td>524</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>210.00</td>\n<td>To All Units</td>\n<td>700</td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>210.00</td>\n<td>to All Units</td>\n<td>749</td>\n</tr>\n<tr>\n<td>3</td>\n<td>LT-2(b)</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>180.00</td>\n<td>All Units</td>\n<td>775</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>180.00</td>\n<td>All Units</td>\n<td>824</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>250.00</td>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>250.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>4a</td>\n<td>LT-3(a)</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>850</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>899</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>300.00</td>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>300.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>4b</td>\n<td>Demand</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>220.00</td>\n<td>All Units</td>\n<td>850</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>220.00</td>\n<td>All Units</td>\n<td>899</td>\n</tr>\n<tr>\n<td>Based</td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>320.00</td>\n<td></td>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>320.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>LT-3(b)</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>1050</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>1099</td>\n</tr>\n<tr>\n<td>6</td>\n<td>LT-4(a)</td>\n<td>-</td>\n<td>-</td>\n<td></td>\n<td>All Units</td>\n<td>476</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>All Units</td>\n<td>525</td>\n</tr>\n<tr>\n<td>7</td>\n<td>LT-4(b)</td>\n<td>-</td>\n<td>Per HP / Month</td>\n<td>135.00</td>\n<td>All Units</td>\n<td>410</td>\n<td>-</td>\n<td>Per HP / Month</td>\n<td>135.00</td>\n<td>All Units</td>\n<td>459</td>\n</tr>\n<tr>\n<td>8</td>\n<td>LT-4(c)</td>\n<td>-</td>\n<td>Per HP / Month</td>\n<td>135.00</td>\n<td>All Units</td>\n<td>425</td>\n<td>-</td>\n<td>Per HP / Month</td>\n<td>135.00</td>\n<td>All Units</td>\n<td>474</td>\n</tr>\n<tr>\n<td>9</td>\n<td>LT-5</td>\n<td>With SL &lt; 100HP</td>\n<td>Per HP / Month</td>\n<td>140.00</td>\n<td>0 to 500 Units</td>\n<td>610</td>\n<td>With SL &lt; 100HP</td>\n<td>Per HP / Month</td>\n<td>140.00</td>\n<td>to 500 Units</td>\n<td>659</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>With SL &gt;= 100HP</td>\n<td>Per HP / Month</td>\n<td>250.00</td>\n<td>500 Units</td>\n<td>710</td>\n<td>With SL &gt;= 100HP</td>\n<td>Per HP / Month</td>\n<td>250.00</td>\n<td>&gt; 500 Units</td>\n<td>759</td>\n</tr>\n<tr>\n<td></td>\n<td>Based</td>\n<td>With SL &gt;= 100HP</td>\n<td>Per HP / Month</td>\n<td>300.00</td>\n<td>To 500 Units</td>\n<td>610</td>\n<td>With SL &gt;= 100HP</td>\n<td>Per HP / Month</td>\n<td>250.00</td>\n<td>to 500 Units</td>\n<td>659</td>\n</tr>\n<tr>\n<td>10</td>\n<td>LT-6(c)</td>\n<td>With SL below 67 HP</td>\n<td>Per HP / Month</td>\n<td>175.00</td>\n<td>All Units</td>\n<td>550</td>\n<td>With SL below 67 HP</td>\n<td>Per HP / Month</td>\n<td>175.00</td>\n<td>All Units</td>\n<td>599</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>For Every Addl, HP above 67 HP</td>\n<td>Per HP / Month</td>\n<td>275.00</td>\n<td></td>\n<td></td>\n<td>For Every Addl, HP above 67 HP</td>\n<td>Per HP / Month</td>\n<td>275.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>11</td>\n<td>LT-6(b)</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>175.00</td>\n<td>All Units</td>\n<td>700</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>175.00</td>\n<td>All Units</td>\n<td>749</td>\n</tr>\n<tr>\n<td>12</td>\n<td>LT-6(c)</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>70.00</td>\n<td>All Units</td>\n<td>450</td>\n<td>With SL upto 50 KW</td>\n<td>Per KW / Month</td>\n<td>70.00</td>\n<td>All Units</td>\n<td>499</td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>170.00</td>\n<td></td>\n<td></td>\n<td>For Every Addl, KW above 50 KW</td>\n<td>Per KW / Month</td>\n<td>170.00</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>12a</td>\n<td>LT 6(c) under HT</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>450</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>499</td>\n</tr>\n<tr>\n<td>13</td>\n<td>LT-7</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>1150</td>\n<td>-</td>\n<td>Per KW / Month</td>\n<td>200.00</td>\n<td>All Units</td>\n<td>1199</td>\n</tr>\n<tr>\n<td>14</td>\n<td>HT-1</td>\n<td>-</td>\n<td>PerKVA / Month</td>\n<td>350.00</td>\n<td>All Units</td>\n<td>600</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>350.00</td>\n<td>All Units</td>\n<td>649</td>\n</tr>\n<tr>\n<td>15</td>\n<td>HT-2a</td>\n<td>Per KVA / Month</td>\n<td>350.00</td>\n<td>All Units</td>\n<td>740</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>350.00</td>\n<td>All Units</td>\n<td>779</td>\n</tr>\n<tr>\n<td>16</td>\n<td>HT-2b</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>925</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>962</td>\n</tr>\n<tr>\n<td>17</td>\n<td>HT-2c</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>925</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>962</td>\n</tr>\n<tr>\n<td>18</td>\n<td>HT-3</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>925</td>\n<td>-</td>\n<td>Per KVA / Month</td>\n<td>375.00</td>\n<td>All Units</td>\n<td>962</td>\n</tr>\n<tr>\n<td>19</td>\n<td>HT-4</td>\n<td>Per HP / Month</td>\n<td>150.00</td>\n<td>All Units"
+    },
+    {
+      "block_id": "20260520_50433bd2-597f-4804-ada9-0155d6e59f81_1_block_004",
+      "coordinates": {
+        "x1": 3138.0,
+        "y1": 2267.0,
+        "x2": 3229.0,
+        "y2": 2297.0
+      },
+      "layout_tag": "page-number",
+      "confidence": 0.6052353382110596,
+      "reading_order": 5,
+      "text": "330"
+    }
+  ]
+}

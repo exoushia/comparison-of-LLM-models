@@ -1,0 +1,34 @@
+{
+  "page_num": 1,
+  "image_width": 824,
+  "image_height": 416,
+  "created_at": "2026-05-20T08:54:40.028311+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_d20c8d23-c381-47b9-8f08-37d4a415d4ed_1_block_000",
+      "coordinates": {
+        "x1": 94.0,
+        "y1": 15.0,
+        "x2": 725.0,
+        "y2": 56.0
+      },
+      "layout_tag": "header",
+      "confidence": 0.8557482957839966,
+      "reading_order": 1,
+      "text": "Dakshin Gujarat Vij Company Limited\nTruing up for FY 2024-25 and Determination of Revised ARR & Tariff for FY 2026-27"
+    },
+    {
+      "block_id": "20260520_d20c8d23-c381-47b9-8f08-37d4a415d4ed_1_block_001",
+      "coordinates": {
+        "x1": 9.0,
+        "y1": 78.0,
+        "x2": 811.0,
+        "y2": 415.0
+      },
+      "layout_tag": "table",
+      "confidence": 0.9732794761657715,
+      "reading_order": 2,
+      "text": "<table>\n<thead>\n<tr>\n<th>Sr.<br/>No.</th>\n<th>Name of the Station</th>\n<th>Available<br/>(MU)</th>\n<th>Dispatch<br/>(MU)</th>\n<th>Fixed<br/>Cost<br/>(Rs.<br/>Crore)</th>\n<th>Variable<br/>Cost<br/>(Rs./kwh)</th>\n<th>Variable<br/>Cost<br/>(Rs.<br/>Crore)</th>\n<th>Total<br/>Cost<br/>(Rs.<br/>Crore)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Adani Power Ltd Bid 1</td>\n<td>8,935</td>\n<td>736</td>\n<td>662</td>\n<td>4.37</td>\n<td>322</td>\n<td>984</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Adani Power Ltd Bid 2</td>\n<td>9,188</td>\n<td>4,403</td>\n<td>741</td>\n<td>4.11</td>\n<td>1,810</td>\n<td>2,551</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Essar Power Gujarat Ltd</td>\n<td>8,354</td>\n<td>688</td>\n<td>299</td>\n<td>4.71</td>\n<td>324</td>\n<td>623</td>\n</tr>\n<tr>\n<td>4</td>\n<td>ACB India Ltd</td>\n<td>1,489</td>\n<td>1,489</td>\n<td>129</td>\n<td>0.66</td>\n<td>98</td>\n<td>227</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Coastal Gujarat Power Co<br/>Ltd</td>\n<td>13,440</td>\n<td>13,440</td>\n<td>985</td>\n<td>4.02</td>\n<td>5,403</td>\n<td>6,388</td>\n</tr>\n<tr>\n<td>6</td>\n<td>DB Power</td>\n<td>2,310</td>\n<td>2,310</td>\n<td>597</td>\n<td>1.67</td>\n<td>386</td>\n<td>983</td>\n</tr>\n<tr>\n<td>7</td>\n<td>MTOA</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>1.79</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Pump Storage</td>\n<td>101</td>\n<td>101</td>\n<td>-</td>\n<td>5.02</td>\n<td>51</td>\n<td>51</td>\n</tr>\n</tbody>\n</table>"
+    }
+  ]
+}

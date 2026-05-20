@@ -1,0 +1,229 @@
+{
+  "page_num": 1,
+  "image_width": 2550,
+  "image_height": 3300,
+  "created_at": "2026-05-20T09:04:04.244701+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_000",
+      "coordinates": {
+        "x1": 629.0,
+        "y1": 328.0,
+        "x2": 1919.0,
+        "y2": 489.0
+      },
+      "layout_tag": "headline",
+      "confidence": 0.9279525876045227,
+      "reading_order": 1,
+      "text": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_001",
+      "coordinates": {
+        "x1": 219.0,
+        "y1": 539.0,
+        "x2": 864.0,
+        "y2": 744.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.8800773024559021,
+      "reading_order": 2,
+      "text": "Dominik Kreuzberger\nKIT\nGermany\ndominik.kreuzberger@alumni.kit.edu"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_002",
+      "coordinates": {
+        "x1": 1146.0,
+        "y1": 537.0,
+        "x2": 1412.0,
+        "y2": 743.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.8934295177459717,
+      "reading_order": 3,
+      "text": "Niklas Kühl\nKIT\nGermany\nkuehl@kit.edu"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_003",
+      "coordinates": {
+        "x1": 1802.0,
+        "y1": 538.0,
+        "x2": 2331.0,
+        "y2": 743.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9041234850883484,
+      "reading_order": 4,
+      "text": "Sebastian Hirschl\nIBM^†\nGermany\nsebastian.hirschl@de.ibm.com"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_004",
+      "coordinates": {
+        "x1": 215.0,
+        "y1": 848.0,
+        "x2": 483.0,
+        "y2": 898.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8116312026977539,
+      "reading_order": 5,
+      "text": "ABSTRACT"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_005",
+      "coordinates": {
+        "x1": 212.0,
+        "y1": 916.0,
+        "x2": 1237.0,
+        "y2": 1771.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9773250818252563,
+      "reading_order": 6,
+      "text": "The final goal of all industrial machine learning (ML) projects is to\ndevelop ML products and rapidly bring them into production.\nHowever, it is highly challenging to automate and operationalize\nML products and thus many ML endeavors fail to deliver on their\nexpectations. The paradigm of Machine Learning Operations\n(MLOps) addresses this issue. MLOps includes several aspects,\nsuch as best practices, sets of concepts, and development culture.\nHowever, MLOps is still a vague term and its consequences for\nresearchers and professionals are ambiguous. To address this gap,\nwe conduct mixed-method research, including a literature review,\na tool review, and expert interviews. As a result of these\ninvestigations, we provide an aggregated overview of the necessary\nprinciples, components, and roles, as well as the associated\narchitecture and workflows. Furthermore, we furnish a definition\nof MLOps and highlight open challenges in the field. Finally, this\nwork provides guidance for ML researchers and practitioners who\nwant to automate and operate their ML products with a designated\nset of technologies."
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_006",
+      "coordinates": {
+        "x1": 216.0,
+        "y1": 1817.0,
+        "x2": 506.0,
+        "y2": 1864.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.6775873303413391,
+      "reading_order": 7,
+      "text": "KEYWORDS"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_007",
+      "coordinates": {
+        "x1": 213.0,
+        "y1": 1878.0,
+        "x2": 1232.0,
+        "y2": 1973.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.8825969099998474,
+      "reading_order": 8,
+      "text": "CI/CD, DevOps, Machine Learning, MLOps, Operations,\nWorkflow Orchestration"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_008",
+      "coordinates": {
+        "x1": 220.0,
+        "y1": 2057.0,
+        "x2": 551.0,
+        "y2": 2105.0
+      },
+      "layout_tag": "section-title",
+      "confidence": 0.8367363214492798,
+      "reading_order": 9,
+      "text": "1 Introduction"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_009",
+      "coordinates": {
+        "x1": 213.0,
+        "y1": 2121.0,
+        "x2": 1238.0,
+        "y2": 2790.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9664073586463928,
+      "reading_order": 10,
+      "text": "Machine Learning (ML) has become an important technique to\nleverage the potential of data and allows businesses to be more\ninnovative [1], efficient [13], and sustainable [22]. However, the\nsuccess of many productive ML applications in real-world settings\nfalls short of expectations [21]. A large number of ML projects\nfail—with many ML proofs of concept never progressing as far as\nproduction [30]. From a research perspective, this does not come as\na surprise as the ML community has focused extensively on the\nbuilding of ML models, but not on (a) building production-ready\nML products and (b) providing the necessary coordination of the\nresulting, often complex ML system components and infrastructure,\nincluding the roles required to automate and operate an ML system\nin a real-world setting [35]. For instance, in many industrial\napplications, data scientists still manage ML workflows manually"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_010",
+      "coordinates": {
+        "x1": 1314.0,
+        "y1": 841.0,
+        "x2": 2335.0,
+        "y2": 932.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9194511771202087,
+      "reading_order": 11,
+      "text": "to a great extent, resulting in many issues during the operations of\nthe respective ML solution [26]."
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_011",
+      "coordinates": {
+        "x1": 1312.0,
+        "y1": 937.0,
+        "x2": 2336.0,
+        "y2": 1645.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9682484269142151,
+      "reading_order": 12,
+      "text": "To address these issues, the goal of this work is to examine how\nmanual ML processes can be automated and operationalized so that\nmore ML proofs of concept can be brought into production. In this\nwork, we explore the emerging ML engineering practice “Machine\nLearning Operations”—MLOps for short—precisely addressing\nthe issue of designing and maintaining productive ML. We take a\nholistic perspective to gain a common understanding of the\ninvolved components, principles, roles, and architectures. While\nexisting research sheds some light on various specific aspects of\nMLOps, a holistic conceptualization, generalization, and\nclarification of ML systems design are still missing. Different\nperspectives and conceptions of the term “MLOps” might lead to\nmisunderstandings and miscommunication, which, in turn, can lead\nto errors in the overall setup of the entire ML system. Thus, we ask\nthe research question:"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_012",
+      "coordinates": {
+        "x1": 1368.0,
+        "y1": 1648.0,
+        "x2": 1721.0,
+        "y2": 1692.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.5553485751152039,
+      "reading_order": 13,
+      "text": "RQ: What is MLOps?"
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_013",
+      "coordinates": {
+        "x1": 1313.0,
+        "y1": 1697.0,
+        "x2": 2334.0,
+        "y2": 2024.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9561173915863037,
+      "reading_order": 14,
+      "text": "To answer that question, we conduct a mixed-method research\nendeavor to (a) identify important principles of MLOps, (b) carve\nout functional core components, (c) highlight the roles necessary to\nsuccessfully implement MLOps, and (d) derive a general\narchitecture for ML systems design. In combination, these insights\nresult in a definition of MLOps, which contributes to a common\nunderstanding of the term and related concepts."
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_014",
+      "coordinates": {
+        "x1": 1313.0,
+        "y1": 2027.0,
+        "x2": 2335.0,
+        "y2": 2355.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.9576140642166138,
+      "reading_order": 15,
+      "text": "In so doing, we hope to positively impact academic and\npractical discussions by providing clear guidelines for\nprofessionals and researchers alike with precise responsibilities.\nThese insights can assist in allowing more proofs of concept to\nmake it into production by having fewer errors in the system’s\ndesign and, finally, enabling more robust predictions in real-world\nenvironments."
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_015",
+      "coordinates": {
+        "x1": 1312.0,
+        "y1": 2359.0,
+        "x2": 2339.0,
+        "y2": 2736.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.958293080329895,
+      "reading_order": 16,
+      "text": "The remainder of this work is structured as follows. We will first\nelaborate on the necessary foundations and related work in the field.\nNext, we will give an overview of the utilized methodology,\nconsisting of a literature review, a tool review, and an interview\nstudy. We then present the insights derived from the application of\nthe methodology and conceptualize these by providing a unifying\ndefinition. We conclude the paper with a short summary,\nlimitations, and outlook."
+    },
+    {
+      "block_id": "20260520_5d2b7c01-5c80-42eb-8ee5-48ba81c19c39_1_block_016",
+      "coordinates": {
+        "x1": 213.0,
+        "y1": 2899.0,
+        "x2": 868.0,
+        "y2": 2971.0
+      },
+      "layout_tag": "footnote",
+      "confidence": 0.6994379162788391,
+      "reading_order": 17,
+      "text": "^† This paper does not represent an official IBM\nstatement"
+    }
+  ]
+}

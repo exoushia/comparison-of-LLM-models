@@ -1,0 +1,21 @@
+{
+  "page_num": 1,
+  "image_width": 2014,
+  "image_height": 800,
+  "created_at": "2026-05-20T08:51:00.129919+00:00",
+  "blocks": [
+    {
+      "block_id": "20260520_be0b2413-f512-4448-9232-02adc5aeb543_1_block_000",
+      "coordinates": {
+        "x1": 274.0,
+        "y1": 60.0,
+        "x2": 1771.0,
+        "y2": 743.0
+      },
+      "layout_tag": "paragraph",
+      "confidence": 0.7011616230010986,
+      "reading_order": 1,
+      "text": "**Input:** Load (PLₕ), Shifted load (kⁱ), Elastic loads (spₕᵃ), User preference (uppₕᵃ), Contract limit, ς\n\n**Output:** Desirable user preference parameter threshold such that f(αₕᵃ) ≤β\n\n**Begin** 1: **Initialize** αₕᵃ=0, app=0, β=A such that kⁱ =[kⁱ]^T, ∀i ∈I\n    2: **for** h=1,2,...,H **do**\n    3: **if** (PL > 250) **then**\n    4: **for** a=1,2,...,A **do**\n    5: **if** spₕᵃ > 0 and spₕᵃ = kⁱ **then**\n    6: αₕᵃ = spₕᵃ and app=app+1\n    7: **if** app > β break **end if**   **end if**   **end for**   **end if**   **end for**\n    8: **initialize** i=0, ς=3000, kⁱ=0\n    9: **for** h=1,2,...,H **do**\n    10: **if** (h=off-peak/normal) **then**\n    11: update PLₕ=PLₕ^+ + αₕᵃ   **end if**   **end for**   End"
+    }
+  ]
+}
