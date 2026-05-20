@@ -38,8 +38,5 @@ htmlcov/
 *.swp
 *~
 
-# Generated eval outputs
-results/
-
 # Logs
 *.log

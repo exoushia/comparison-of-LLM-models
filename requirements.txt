@@ -8,3 +8,12 @@ sacrebleu>=2.4.0
 Pillow>=10.0.0
 python-dotenv>=1.1.0
 gradio>=5.0.0
+PyMuPDF
+openlit
+livekit>=1.42.0
+livekit-agents>=1.5.0
+livekit-plugins-sarvam>=1.5.0
+livekit-plugins-openai>=1.5.0
+livekit-plugins-silero>=1.5.0
+ipython>=8.0.0
+ipykernel>=6.29.0
